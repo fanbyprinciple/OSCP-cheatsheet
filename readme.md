@@ -2,7 +2,7 @@
 
 Hi. If you are giving your OSCP exam, best of luck!
 
-This cheatsheet contains my tools and techniques I used to pass the exam.
+This cheatsheet contains cheatsheet to techniques I used to pass the exam and those given in the course.
 
 ## upgrading shells
 
