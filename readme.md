@@ -84,7 +84,7 @@ for php pages dirb works best
 ## gobuster status code
 
 ```
-go buster status code : `gobuster dir -u https://www.jmicc.gov.pk/ -w /usr/share/wordlists/dirb/common.txt -b '403,404'`
+go buster status code : `gobuster dir -u https://www.vvvv.com/ -w /usr/share/wordlists/dirb/common.txt -b '403,404'`
 
 using wget to reveal the text as /root/root
 
