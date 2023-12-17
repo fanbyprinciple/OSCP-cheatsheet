@@ -1,8 +1,8 @@
-# Useful techniques for OSCP exam
+# Useful techniques for OSCP
 
 Hi. If you are giving your OSCP exam, best of luck!
 
-This cheatsheet contains cheatsheet to techniques I used to pass the exam and those given in the course.
+This cheatsheet contains cheatsheet to techniques I used to pass the exam and those given in the course. Might add more later.
 
 ## upgrading shells
 
